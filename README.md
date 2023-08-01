@@ -1,1 +1,1 @@
-# algorithm-samples
+# Algorithm Samples
