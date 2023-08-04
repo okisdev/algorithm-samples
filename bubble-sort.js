@@ -16,4 +16,5 @@ function bubbleSort(arr) {
 
 // Testing
 let arr = [5, 4, 3, 2, 1];
+
 console.log(bubbleSort(arr)); // [1, 2, 3, 4, 5]
