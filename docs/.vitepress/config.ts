@@ -23,7 +23,7 @@ export default defineConfig({
             '/sorting/': SortingSidebar(),
         },
 
-        socialLinks: [{ icon: 'github', link: 'https://github.com/okisdev/Algorithm-Samples' }],
+        socialLinks: [{ icon: 'github', link: 'https://github.com/okisdev/algorithm-samples' }],
 
         footer: {
             message: 'MIT License.',

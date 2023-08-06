@@ -6,6 +6,6 @@ Bubble Sort 的時間複雜度為 O(n^2)，在所有的情況下都是如此。�
 
 ## Source Code
 
-[Python](https://github.com/okisdev/Algorithm-Samples/Python/Sorting/bubble-sort.py)
+[Python](https://github.com/okisdev/algorithm-samples/blob/main/Python/Sorting/bubble-sort.py)
 
-[JavaScript](https://github.com/okisdev/Algorithm-Samples/JavaScript/Sorting/bubble-sort.js)
+[JavaScript](https://github.com/okisdev/algorithm-samples/blob/main/JavaScript/Sorting/bubble-sort.js)

@@ -12,7 +12,7 @@ hero:
           link: /basic/index
         - theme: alt
           text: View on GitHub
-          link: https://github.com/okisdev/Algorithm-Samples
+          link: https://github.com/okisdev/algorithm-samples
 # features:
 #     - title: Feature A
 #       details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
