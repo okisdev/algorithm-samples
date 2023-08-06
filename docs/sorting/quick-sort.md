@@ -6,6 +6,6 @@
 
 ## Source Code
 
-[Python](https://github.com/okisdev/algorithm-samples/Python/Sorting/quick-sort.py)
+[Python](https://github.com/okisdev/algorithm-samples/blob/main/Python/Sorting/quick-sort.py)
 
-[JavaScript](https://github.com/okisdev/algorithm-samples/JavaScript/Sorting/quick-sort.js)
+[JavaScript](https://github.com/okisdev/algorithm-samples/blob/main/JavaScript/Sorting/quick-sort.js)
