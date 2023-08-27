@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress';
 
-import { SortingSidebar } from './sidebar.config';
+import { SortingSidebar } from './sidebar.config.mjs';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
