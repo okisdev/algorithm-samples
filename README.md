@@ -1,144 +1,87 @@
 # Algorithm Samples
 
-A collection of algorithms.
+This repository contains samples of various types of algorithms implemented in Python.
 
 ## Types of Algorithms
 
-1. Sorting Algorithms (Bubble Sort, Quick Sort, Merge Sort, etc.): These are used to rearrange a given array or list elements according to a comparison operator on the elements.
-2. Searching Algorithms (Binary Search, Linear Search, Depth-First Search, etc.): These are used to find a particular item in a data structure.
-3. Graph Algorithms (Dijkstra's Algorithm, Bellman-Ford Algorithm, etc.): These are used to solve problems involving graphs, such as finding the shortest path between two nodes, finding the minimum spanning tree, etc.
-4. String Search Algorithms (Knuth–Morris–Pratt Algorithm, Rabin-Karp Algorithm, etc.): These are used to find a pattern in a text.
-5. Machine Learning Algorithms (Support Vector Machines, Decision Trees, Neural Networks, etc.): These are used to create models that learn from data and make predictions or decisions without being explicitly programmed to perform the task.
-6. Clustering Algorithms (K-Means Clustering, Hierarchical Clustering, DBSCAN, etc.): These are used in unsupervised machine learning to group similar items together.
-7. Optimization Algorithms (Gradient Descent, Genetic Algorithm, Particle Swarm Optimization, etc.): These are used to find the best solution (optimum) for a problem.
-8. Computer Graphics Algorithms (Bresenham's line algorithm, Ray Tracing, Texture Mapping, etc.): These are used to generate and manipulate graphical content.
-9. Procedural Generation Algorithms (Perlin Noise, Diamond-Square Algorithm, Voronoi Diagrams, etc.): These are used to automatically create content in games and simulations.
-10. Quantum Computing Algorithms (Shor's Algorithm, Grover's Algorithm, etc.): These are used in the field of quantum computing.
-11. Compression Algorithms (Huffman Coding, Run-Length Encoding, etc.): These are used to reduce the size of data without losing information.
-12. Cryptographic Algorithms (RSA, AES, DES, etc.): These are used to secure data by converting it into a form that can only be read by someone who has the decryption key.
-13. Image Processing Algorithms (Canny Edge Detection, Histogram Equalization, etc.): These are used to manipulate and analyze images.
-14. Computer Vision Algorithms (Hough Transform, SIFT, SURF, etc.): These are used to gain high-level understanding from digital images or videos.
-15. Natural Language Processing Algorithms (Bag of Words, TF-IDF, Word2Vec, etc.): These are used to process human language.
-16. Bioinformatics Algorithms (Needleman-Wunsch Algorithm, Smith-Waterman Algorithm, etc.): These are used to solve problems related to biological data.
-17. Geospatial Algorithms (Haversine Formula, Vincenty's formulae, etc.): These are used to solve problems related to the earth's surface.
-18. Numerical Algorithms (Newton's Method, Gaussian Elimination, etc.): These are used to solve numerical problems.
-19. Network Algorithms (PageRank, Link Analysis, etc.): These are used to analyze and understand networks.
-20. Data Mining Algorithms (Apriori, Eclat, FP-Growth, etc.): These are used to extract patterns from large datasets.
-21. Recommender System Algorithms (Collaborative Filtering, Content-Based Filtering, etc.): These are used to predict the "rating" or "preference" that a user would give to an item.
-22. Game Theory Algorithms (Minimax, Alpha-Beta Pruning, etc.): These are used to determine the optimal strategy in games.
-23. Reinforcement Learning Algorithms (Q-Learning, SARSA, DDPG, etc.): These are used to train software agents to take actions in an environment to maximize some notion of cumulative reward.
-24. Genetic Algorithms: These are used to find approximate solutions to optimization and search problems.
-25. Swarm Intelligence Algorithms (Ant Colony Optimization, Particle Swarm Optimization, etc.): These are used to solve optimization problems based on the collective behavior of decentralized, self-organized systems.
-26. Multi-Objective Optimization Algorithms (NSGA-II, SPEA2, MOEA/D, etc.): These are used to solve optimization problems that involve more than one objective function to be optimized simultaneously.
-27. Metaheuristic Algorithms (Simulated Annealing, Tabu Search, Harmony Search, etc.): These are high-level problem-independent algorithmic frameworks that provide a set of guidelines or strategies to develop heuristic optimization algorithms.
-28. Evolutionary Algorithms (Genetic Algorithm, Differential Evolution, Evolution Strategies, etc.): These are used to solve optimization problems based on the mechanisms of evolution, such as reproduction, mutation, recombination, and selection.
-29. Estimation of Distribution Algorithms (Univariate Marginal Distribution Algorithm, Bivariate Marginal Distribution Algorithm, etc.): These are used to solve optimization problems based on the use of probabilistic models to guide the search process.
-30. Memetic Algorithms (Genetic Algorithm with Local Search, Differential Evolution with Local Search, etc.): These are used to solve optimization problems based on the combination of a population-based global search approach with a local search strategy.
-31. Artificial Immune System Algorithms (Clonal Selection Algorithm, Negative Selection Algorithm, etc.): These are used to solve optimization problems based on the principles and processes of the immune systems of vertebrates.
-32. Artificial Neural Network Algorithms (Backpropagation, Radial Basis Function Network, etc.): These are used to solve problems that require pattern recognition, prediction, classification, decision making, and control.
-33. Deep Learning Algorithms (Convolutional Neural Network, Recurrent Neural Network, etc.): These are used to solve problems that require learning from large amounts of data.
-34. Fuzzy Logic Algorithms (Fuzzy C-Means, Fuzzy ART, etc.): These are used to solve problems that involve uncertainty and imprecision.
-35. Rough Set Algorithms (Variable Precision Rough Set, Dominance-Based Rough Set, etc.): These are used to solve problems that involve uncertainty, vagueness, and incompleteness of information.
-36. Probabilistic Graphical Model Algorithms (Bayesian Network, Markov Random Field, etc.): These are used to solve problems that involve uncertainty and complexity.
-37. Bayesian Inference Algorithms (Markov Chain Monte Carlo, Variational Bayesian Method, etc.): These are used to solve problems that involve updating probabilities based on evidence.
-38. Monte Carlo Algorithms (Monte Carlo Integration, Monte Carlo Tree Search, etc.): These are used to solve problems that involve repeated random sampling to obtain numerical results.
-39. Markov Chain Algorithms (Markov Chain Monte Carlo, Hidden Markov Model, etc.): These are used to solve problems that involve systems that undergo transitions from one state to another on a state space.
-40. Time Series Analysis Algorithms (ARIMA, GARCH, etc.): These are used to analyze time series data.
-41. Dimensionality Reduction Algorithms (Principal Component Analysis, Linear Discriminant Analysis, etc.): These are used to reduce the number of random variables to consider.
-42. Feature Selection Algorithms (Recursive Feature Elimination, Sequential Feature Selection, etc.): These are used to select a subset of relevant features for use in model construction.
-43. Feature Extraction Algorithms (Principal Component Analysis, Independent Component Analysis, etc.): These are used to construct combinations of variables to get around these issues while still describing the data with sufficient accuracy.
-44. Instance Selection Algorithms (Condensed Nearest Neighbor, Edited Nearest Neighbor, etc.): These are used to select a subset of instances to speed up learning and generalization.
-45. Prototype Generation Algorithms (LVQ, SOM, etc.): These are used to generate a set of representative instances that can summarize the original data.
-46. Discretization Algorithms (Equal Width, Equal Frequency, etc.): These are used to transform numeric data by creating a finite partition of the value range.
-47. Binarization Algorithms (Unimodal, Bi-Modal, etc.): These are used to transform numeric data into binary form.
-48. Missing Values Imputation Algorithms (Mean Imputation, K-Nearest Neighbors, etc.): These are used to estimate missing values in the data.
-49. Outlier Detection Algorithms (Z-Score, IQR, etc.): These are used to detect outliers in the data.
-50. Anomaly Detection Algorithms (One-Class SVM, Isolation Forest, etc.): These are used to detect anomalies in the data.
-51. Change Detection Algorithms (CUSUM, Page-Hinkley, etc.): These are used to detect changes in the data.
-52. Concept Drift Detection Algorithms (DWM, ADWIN, etc.): These are used to detect changes in the underlying concepts in the data.
-53. Class Imbalance Learning Algorithms (SMOTE, ADASYN, etc.): These are used to deal with imbalanced data.
-54. Multi-Label Learning Algorithms (Binary Relevance, Classifier Chains, etc.): These are used to deal with multi-label data.
-55. Multi-Instance Learning Algorithms (MILBoost, MI-SVM, etc.): These are used to deal with multi-instance data.
-56. Multi-View Learning Algorithms (Co-Training, Multi-View SVM, etc.): These are used to deal with multi-view data.
-57. Structured Output Learning Algorithms (CRF, Structured SVM, etc.): These are used to deal with structured output data.
-58. Semi-Supervised Learning Algorithms (Self-Training, Co-Training, etc.): These are used to deal with partially labeled data.
-59. Active Learning Algorithms (Uncertainty Sampling, Query-By-Committee, etc.): These are used to deal with situations where unlabeled data is abundant but labeling data is expensive.
-60. Transfer Learning Algorithms (Domain-Adaptive SVM, Transfer AdaBoost, etc.): These are used to deal with situations where the distribution of the test data is different from the distribution of the training data.
-61. Multi-Task Learning Algorithms (Multi-Task Lasso, Multi-Task Elastic Net, etc.): These are used to deal with situations where multiple related tasks are learned together.
-62. Online Learning Algorithms (Perceptron, Online Passive-Aggressive, etc.): These are used to deal with situations where the data comes in sequential order and the learner has to update the model incrementally.
-63. Ensemble Learning Algorithms (Bagging, Boosting, Stacking, etc.): These are used to combine multiple learners to improve the generalization ability of the model.
-64. Cost-Sensitive Learning Algorithms (Cost-Sensitive Decision Trees, Cost-Sensitive SVM, etc.): These are used to deal with situations where the costs of different errors are different.
-65. Class-Imbalance Learning Algorithms (SMOTE, ADASYN, etc.): These are used to deal with imbalanced data.
-66. One-Class Learning Algorithms (One-Class SVM, One-Class Decision Trees, etc.): These are used to deal with situations where the training data contains only the positive class.
-67. Rule Learning Algorithms (RIPPER, PART, etc.): These are used to extract a set of rules from the data.
-68. Association Rule Learning Algorithms (Apriori, FP-Growth, etc.): These are used to extract a set of associations from the data.
-69. Grammar Induction Algorithms (RPNI, LSTAR, etc.): These are used to extract a grammar from the data.
-70. Formal Concept Analysis Algorithms (NextClosure, CloseByOne, etc.): These are used to extract a set of formal concepts from the data.
-71. Biclustering Algorithms (Cheng & Church, Plaid Model, etc.): These are used to simultaneously cluster rows and columns of a matrix.
-72. Collaborative Filtering Algorithms (User-Based, Item-Based, etc.): These are used to make automatic predictions about the interests of a user by collecting preferences from many users.
-73. Content-Based Filtering Algorithms (TF-IDF, Cosine Similarity, etc.): These are used to recommend items by comparing the content of the items and a user profile.
-74. Hybrid Recommender Systems (Weighted, Mixed, etc.): These are used to combine collaborative and content-based methods to overcome their individual limitations.
-75. Multi-Criteria Recommender Systems (MOMA, MOEARec, etc.): These are used to recommend items by considering multiple criteria simultaneously.
-76. Context-Aware Recommender Systems (Tensor Factorization, Contextual Bandit, etc.): These are used to recommend items by considering the context of the recommendation.
-77. Group Recommender Systems (Aggregation Strategy, Group Modeling, etc.): These are used to recommend items to a group of users.
-78. Social Recommender Systems (Trust-Based, Influence-Based, etc.): These are used to recommend items by considering the social relations among users.
-79. Cross-Domain Recommender Systems (Linked-Based, Rating-Based, etc.):
+1. **Searching Algorithms:**
 
-## List of Algorithms
+    - Examples: Binary Search, Linear Search
+    - Description: Searching algorithms are designed to check for an element or retrieve an element from any data structure where it is stored. Binary search is a fast search algorithm with run-time complexity of Ο(log n). This search algorithm works on the principle of divide and conquer. For this algorithm to work properly, the data collection should be in the sorted form. Linear search is the simplest search algorithm and often called sequential search. It is a method for finding an element within a list.
 
-1. Bubble Sort
-2. Quick Sort
-3. Merge Sort
-4. Insertion Sort
-5. Selection Sort
-6. Heap Sort
-7. Radix Sort
-8. Bucket Sort
-9. Shell Sort
-10. Counting Sort
-11. Binary Search
-12. Linear Search
-13. Depth-First Search (DFS)
-14. Breadth-First Search (BFS)
-15. Dijkstra's Algorithm (Shortest Path)
-16. A\* Search Algorithm
-17. Floyd–Warshall Algorithm
-18. Kruskal's Algorithm
-19. Prim's Algorithm
-20. Huffman Coding
-21. Greedy Algorithm
-22. Dynamic Programming
-23. Backtracking Algorithm
-24. Divide and Conquer Algorithm
-25. Recursive Algorithm
-26. Knapsack Problem
-27. Travelling Salesman Problem
-28. Tower of Hanoi
-29. Binary Tree Traversal Algorithms (In-order, Pre-order, Post-order)
-30. Graph Traversal Algorithms (DFS, BFS)
-31. Bellman-Ford Algorithm (Shortest Path)
-32. Johnson’s Algorithm (Shortest Path)
-33. Knuth–Morris–Pratt Algorithm (String Search)
-34. Rabin-Karp Algorithm (String Search)
-35. Z Algorithm (String Search)
-36. Naive Pattern Searching Algorithm
-37. Boyer-Moore Algorithm (String Search)
-38. Fisher-Yates Shuffle Algorithm
-39. Monte Carlo Algorithm
-40. Las Vegas Algorithm
-41. Genetic Algorithm
-42. Simulated Annealing
-43. Ant Colony Optimization Algorithms
-44. Particle Swarm Optimization Algorithms
-45. Bresenham's line algorithm
-46. Flood fill Algorithm
-47. Union-Find Algorithm
-48. Graham's Scan Algorithm
-49. Gift Wrapping Algorithm
-50. Ford-Fulkerson Algorithm (Maximum Flow)
-51. Edmonds-Karp Algorithm (Maximum Flow)
-52. Needleman-Wunsch Algorithm (Sequence Alignment)
-53. Smith-Waterman Algorithm (Sequence Alignment)
+2. **Dynamic Programming Algorithms:**
+
+    - Examples: Knapsack Problem, Longest Common Subsequence
+    - Description: Dynamic programming is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions. The knapsack problem is a problem in combinatorial optimization: Given a set of items, each with a weight and a value, determine the number of each item to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible. The longest common subsequence (LCS) problem is the problem of finding the longest subsequence common to all sequences in a set of sequences (often just two sequences).
+
+3. **Divide and Conquer Algorithms:**
+
+    - Examples: Merge Sort, Quick Sort
+    - Description: Divide and conquer is an algorithmic paradigm. A typical Divide and Conquer algorithm solves a problem using the following three steps. 1) Divide: Break the given problem into subproblems of same type. 2) Conquer: Recursively solve these subproblems. 3) Combine: Appropriately combine the answers. Merge Sort is a kind of Divide and Conquer algorithm in computer programrming. It is one of the most popular sorting algorithms and a great way to develop confidence in building recursive algorithms. Quick sort is a highly efficient sorting algorithm and is based on partitioning of array of data into smaller arrays.
+
+4. **Greedy Algorithms:**
+
+    - Examples: Kruskal's Algorithm, Prim's Algorithm
+    - Description: A Greedy algorithm is an algorithmic paradigm that builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit. So the problems where choosing locally optimal also leads to global solution are best fit for Greedy. Kruskal's algorithm is a minimum-spanning-tree algorithm which finds an edge of the least possible weight that connects any two trees in the forest. Prim's algorithm is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. It finds a subset of the edges that forms a tree that includes every vertex, where the total weight of all the edges in the tree is minimized.
+
+5. **Backtracking Algorithms:**
+
+    - Examples: Eight Queens Problem, Rat in a Maze
+    - Description: Backtracking is an algorithmic-technique for solving problems recursively by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time (by time, here, is referred to the time elapsed till reaching any level of the search tree). For example, the eight queens puzzle is the problem of placing eight chess queens on an 8×8 chessboard so that no two queens threaten each other; thus, a solution requires that no two queens share the same row, column, or diagonal. The Rat in a Maze is a simple problem to understand and interpret the working of backtracking.
+
+6. **Machine Learning Algorithms:**
+
+    - Examples: Linear Regression, Logistic Regression
+    - Description: Machine Learning algorithms are an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine Learning focuses on the development of computer programs that can access data and use it learn for themselves. For example, Linear regression is a linear approach to modelling the relationship between a dependent variable and one or more independent variables. Logistic Regression is a Machine Learning classification algorithm that is used to predict the probability of a categorical dependent variable. In logistic regression, the dependent variable is a binary variable that contains data coded as 1 (yes, success, etc.) or 0 (no, failure, etc.). In other words, the logistic regression model predicts P(Y=1) as a function of X.
+
+7. **Cryptography Algorithms:**
+
+    - Examples: RSA, AES
+    - Description: Cryptography involves creating written or generated codes that allow information to be kept secret. Cryptography converts data into a format that is unreadable for an unauthorized user, allowing it to be transmitted without unauthorized entities decoding it back into a readable format, thus compromising the data. RSA (Rivest–Shamir–Adleman) is one of the first public-key cryptosystems and is widely used for secure data transmission. In such a cryptosystem, the encryption key is public and distinct from the decryption key which is kept secret (private). AES (Advanced Encryption Standard) is a symmetric encryption algorithm established by the U.S. National Institute of Standards and Technology (NIST) in 2001.
+
+8. **Geometry Algorithms:**
+
+    - Examples: Convex Hull, Line Intersection
+    - Description: Geometry algorithms are those algorithms which perform computations and process data related to geometric shapes like points, lines, polygons etc. Convex Hull is the smallest polygon convex figure that contains all the points of S. In other words, the smallest convex polygon that can be drawn around the points is called Convex Hull. The Line Intersection problem is to find whether two lines intersect at a point or not.
+
+9. **Graph Algorithms:**
+
+    - Examples: Breadth First Search, Depth First Search
+    - Description: Graph algorithms are a significant field of interest within computer science. Graph algorithms are algorithms that deal with graphs, which are a specific set of vertices connected by edges. Breadth First Search (BFS) is an algorithm for traversing or searching tree or graph data structures. It starts at the tree root (or some arbitrary node of a graph, sometimes referred to as a 'search key'), and explores all of the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level. Depth First Search (DFS) is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.
+
+10. **Pattern Searching Algorithms:**
+
+    - Examples: Naive Pattern Searching, Rabin-Karp Algorithm
+    - Description: Pattern searching is an important problem in computer science. When we do search for a string in notepad/word file or browser or database, pattern searching algorithms are used to show the search results. Naive Pattern Searching is the simplest method among all the pattern searching algorithms. The idea is to slide the pattern over text one by one and check for a match. If a match is found, then slides by 1 again to check for subsequent matches. The Rabin-Karp algorithm is a string-searching algorithm that uses hashing to find any one of a set of pattern strings in a text. For text of length n and p patterns of combined length m, its average and best case running time is O(n+m) in space O(p), but its worst-case time is O(nm).
+
+11. **Sorting Algorithms:**
+
+    - Examples: Bubble Sort, Insertion Sort
+    - Description: Sorting algorithms are used to rearrange a given array or list elements according to a comparison operator on the elements. The comparison operator is used to decide the new order of element in the respective data structure. For example, Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order. Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.
+
+12. **String Algorithms:**
+
+    - Examples: Longest Common Substring, Longest Common Prefix
+    - Description: String algorithms are algorithms that work on strings. In particular, string algorithms are often designed to work with strings that contain special symbols, such as the empty string or whitespace, which are not usually allowed to appear in string searches. The longest common substring problem is to find the longest string (or strings) that is a substring (or are substrings) of two or more strings. The longest common prefix (LCP) problem is to find the longest string (or strings) that is a prefix (or are prefixes) of two or more strings.
+
+13. **Mathematical Algorithms:**
+
+    - Examples: Sieve of Eratosthenes, Euclidean Algorithm
+    - Description: Mathematical algorithms are those algorithms which perform computations and process data related to mathematics. The sieve of Eratosthenes is a simple, ancient algorithm for finding all prime numbers up to any given limit. It does so by iteratively marking as composite (i.e., not prime) the multiples of each prime, starting with the first prime number, 2. The Euclidean algorithm, or Euclid's algorithm, is an efficient method for computing the greatest common divisor (GCD) of two integers (numbers), the largest number that divides them both without a remainder. It is named after the ancient Greek mathematician Euclid, who first described it in his Elements (c. 300 BC).
+
+14. **Bit Manipulation Algorithms:**
+
+    - Examples: Bit Counting, Bit Reversal
+    - Description: Bit manipulation is the act of algorithmically manipulating bits or other pieces of data shorter than a byte. C language is very efficient in manipulating bits. Bit Counting is the procedure of counting the number of set bits (1s) in a binary string. Bit Reversal is the procedure of reversing the order of bits in a binary string.
+
+15. **Operating System Algorithms:**
+
+    - Examples: Page Replacement Algorithms, Disk Scheduling Algorithms
+    - Description: Operating system algorithms are those algorithms which perform computations and process data related to operating systems. Page Replacement Algorithms are the techniques using which an Operating System decides which memory pages to swap out, write to disk when a page of memory needs to be allocated. Disk Scheduling Algorithms are the algorithms which are used to decide which disk block to access next after a disk operation request has been issued.
+
+16. **Miscellaneous Algorithms:**
+    - Examples: Tower of Hanoi, Josephus Problem
+    - Description: Miscellaneous algorithms are those algorithms which do not fall into any of the above categories. The Tower of Hanoi is a mathematical game or puzzle. It consists of three rods and a number of disks of different sizes, which can slide onto any rod. The puzzle starts with the disks in a neat stack in ascending order of size on one rod, the smallest at the top, thus making a conical shape. The Josephus problem is a theoretical problem related to a certain counting-out game. People are standing in a circle waiting to be executed. Counting begins at a specified point in the circle and proceeds around the circle in a specified direction. After a specified number of people are skipped, the next person is executed. The procedure is repeated with the remaining people, starting with the next person, going in the same direction and skipping the same number of people, until only one person remains, and is freed.
 
 ## LICENSE
 
