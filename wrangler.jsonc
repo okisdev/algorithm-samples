@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "algorithm-samples",
+  "account_id": "5834e50af35a59c10d028ff44cbd68d9",
+  "routes": [{ "pattern": "algorithm-samples.okis.dev", "custom_domain": true }],
+  "compatibility_date": "2026-11-10",
+  "assets": {
+    "directory": "docs/.vitepress/dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
